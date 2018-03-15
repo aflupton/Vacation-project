@@ -1,0 +1,59 @@
+body {
+  background-image: url("http://blogs-images.forbes.com/annabel/files/2014/10/1030_FL-tropical-beach-vacation-Le-Tahaa_2000x1125-1940x1091.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h2{
+  font-size: 150px;
+  font-family: sans-serif;
+  border-style: solid;
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: orange;
+}
+h3{
+  color: #004B8D;
+  text-decoration: underline;
+
+}
+
+.calendar{
+  font-family: monospace;
+  font-size: 30px;
+  color: red;
+}
+.cost{
+  font-family: monospace;
+  font-size: 30px;
+  text-align: left;
+}
+blockquote{
+  text-align: justify;
+
+}
+.panel{
+  background-color: #92B6D5;
+}
+@@media screen and (min-width: 2500px){
+  img{
+       background-size: 2500px;
+     }
+}
+
+@@media screen and (max-width: 1000px){
+  img{
+       background-size: 1000px;
+     }
+}
+
+@@media screen and (max-width: 500px){
+  img{
+       background-size: 500px;
+     }
+}
+.jumbotron{
+  background-color: #95DEE3;
+  color: #004B8D;
+
+}
